@@ -17,8 +17,7 @@ index.html
       <link rel="stylesheet" href="css/modal.css">
    </head>
    <body>
-      <div class="img-modal"></div>
-      <!--Create a div for modal -->
+      <div class="img-modal"></div> <!--Create a div for modal -->
       <img src="https://i.pinimg.com/736x/ce/c0/74/cec074ab85ddb1b716c8ea9ed2a79d4f.jpg" alt="">
    </body>
    <script src="js/modal.js"></script><script>
