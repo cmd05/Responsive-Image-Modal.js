@@ -1,26 +1,19 @@
 function initModal(className) {
     const showModal = document.createElement("DIV");
     showModal.classList.add("show-img-modal");
-    
     const overlay = document.createElement("DIV");
     overlay.classList.add("img-modal-overlay");
-
     const imgShow = document.createElement("DIV");
     imgShow.classList.add("img-show");
-
     const mainImg = document.createElement("IMG");
     mainImg.setAttribute("src", ".");
     mainImg.id = "modal-img";
-
-
     const closeBtn = document.createElement("SPAN");
     closeBtn.classList.add("close-img-modal");
     const close = document.createTextNode("✕");
     closeBtn.appendChild(close);
-
     imgShow.appendChild(mainImg);
     imgShow.appendChild(closeBtn);
-
     showModal.appendChild(overlay);
     showModal.appendChild(imgShow);
 
