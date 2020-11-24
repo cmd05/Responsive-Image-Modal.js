@@ -1,7 +1,7 @@
 # Simple-Javascript-Image-Modal 
 **Responsive-Image-Modal.js** is an
 easy to use fully responsive image modal for your websites. It uses
-vanilla JavaScript and CSS. No more 3 lines to get started.
+vanilla JavaScript and CSS. No more than 3 lines to get started.
 
 How To Use:
 -----------
