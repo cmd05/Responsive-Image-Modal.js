@@ -7,7 +7,7 @@ How To Use:
 -----------
 
 index.html
-        
+ ```html       
 <!DOCTYPE html>
 <html lang="en">
    <head>
@@ -26,7 +26,7 @@ index.html
       addModal(document.querySelectorAll("img")); // Add Modal to Array of Image/Images
    </script>
 </html>
-
+```
 Functions:
 ----------
 
