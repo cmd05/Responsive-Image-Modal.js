@@ -1,4 +1,5 @@
-\# Simple-Javascript-Image-Modal **Responsive-Image-Modal.js** is an
+# Simple-Javascript-Image-Modal 
+**Responsive-Image-Modal.js** is an
 easy to use fully responsive image modal for your websites. It uses
 vanilla JavaScript and CSS. No more 3 lines to get started.
 
@@ -6,15 +7,25 @@ How To Use:
 -----------
 
 index.html
-
         
-        <!DOCTYPE html>
-    <html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" /><title>Document</title><link rel="stylesheet" href="css/modal.css"></head><body><div class="img-modal"></div> <!--Create a div for modal -->
-
-          <img src="https://i.pinimg.com/736x/ce/c0/74/cec074ab85ddb1b716c8ea9ed2a79d4f.jpg" alt=""></body><script src="js/modal.js"></script><script>
-          initModal("img-modal"); //Initialize Modal by class of modal
-          addModal(document.querySelectorAll("img")); // Add Modal to Array of Image/Images</script>
-    </html>
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+      <title>Document</title>
+      <link rel="stylesheet" href="css/modal.css">
+   </head>
+   <body>
+      <div class="img-modal"></div>
+      <!--Create a div for modal -->
+      <img src="https://i.pinimg.com/736x/ce/c0/74/cec074ab85ddb1b716c8ea9ed2a79d4f.jpg" alt="">
+   </body>
+   <script src="js/modal.js"></script><script>
+      initModal("img-modal"); //Initialize Modal by class of modal
+      addModal(document.querySelectorAll("img")); // Add Modal to Array of Image/Images
+   </script>
+</html>
 
 Functions:
 ----------
