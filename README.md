@@ -42,4 +42,4 @@ Going to add customizable features soon...
 Contributions:
 --------------
 
-[Salil Mittal](https://github.com/SalilMittal)
+[cmd3BOT](https://github.com/cmd3BOT)
